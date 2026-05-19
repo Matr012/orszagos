@@ -1,0 +1,46 @@
+Naprendszerünk bolygói
+
+A következő feladatban egy weboldalt kell készítenie Naprendszerünk bolygóinak rövid bemutatására a feladatleírás és a minta szerint! Ahol a feladat másként nem kéri, a formázási beállításokat a style.css stílusállományban végezze el úgy, hogy az új szelektorokat az állomány végén helyezze el! A feladat szövegében található részek megnevezései a HTML fájlban találhatóak megjegyzés formában.
+Nagyobb felbontású, színes mintát a kész weboldalról az naprendszer.png fájlban találja.
+Az elkészült oldalt HTML-validáló eszközzel ellenőrizni kell!
+Nyissa meg az naprendszer.html és css\style.css állományokat és szerkessze azoknak a tartalmát az alábbiak szerint:
+
+Az oldal fejrészében végezze el az alábbi feladatokat:
+A weboldal nyelvezete legyen magyar, a karakterkódolása pedig UTF-8!
+A böngésző címsorában megjelenő cím „Naprendszerünk bolygói” legyen!
+A weboldal fejrészében helyezzen el hivatkozást a css könyvtárban található style.css stíluslapra a Bootstrap stíluslapra történő hivatkozása alá!
+A „Fejléc” részben végezze el az alábbi feladatokat:
+Helyezze el a fejlec.jpg képet a menüsor előtt található üres bekezdésbe! Ha a kép nem jelenik meg, illetve ha a kép fölé visszük az egér kurzort, akkor a „Naprendszer” szöveg jelenjen meg!
+A képnek állítson be egyedi azonosítót „fejlec” néven!
+A navigációs menüsorban helyezzen el egy új menüpontot a „Plútó és más objektumok” menüpont után és „A Naprendszerről bővebben” legyen a neve!
+Az új menüpont a https://hu.wikipedia.org/wiki/Naprendszer weboldalra mutasson úgy, hogy a linkre kattintva az oldal új lapon jelenjen meg a böngészőben!
+A „Leírás” és „Bolygók” részben végezze el az alábbi feladatot:
+A „Leírás” részben „A Naprendszer” szöveget alakítsa 2-es szintű címsorrá!
+A „Jupiter” bolygó leírásánál az „5 legnagyobb holdja:” szöveget HTML tag segítségével alakítsa aláhúzottá!
+Az „5 legnagyobb holdja:” szöveg alatt található 5 hold névből alakítson számozott felsorolást!
+A „Szaturnusz” bolygó leírásánál a „Gyűrűrendszere:” szöveget HTML tag segítségével alakítsa félkövérré!
+A „Gyűrűrendszere:” szöveg után található sorokból alakítson számozatlan felsorolást!
+A számozatlan felsorolásnak állítsa be a „gyuruk” egyedi azonosítót!
+Adja hozzá a „bolygo” osztályjelölőt az egyes bolygók kép elemeihez (7 helyen), hogy a style.css stíluslapon megírt animáció hatása érvényesüljön!
+Az „Uránusz” bolygót lefelejtették a weboldalról! Tegye a hiányzó tartalmat a „Szaturnusz” és a „Neptunusz” részek közé!  A szükséges szövegek a forras.txt állományban találhatóak.
+A címsort a minta alapján alakítsa hármas szintűvé!
+A szövegrész bekezdéseit a minta alapján alakítsa ki!
+Állítsa be a címsor után a mintának megfelelően az Uránusz képét! A kép az img könyvtárban található uranus.png néven. Ha a kép nem jelenik meg, illetve ha a kép fölé visszük az egér kurzort, akkor az „Uránusz” szöveg jelenjen meg!
+Alkalmazza a képre az „img-fluid bolygo” osztályjelölőket!
+A „Plútó és egyéb objektumok” részben található rácsszerkezetet állítsa a közepesméretű eszközöknél 1/2-1/2 osztásról 2/3-1/3 osztásra!
+Módosítsa a lábléc beállításait az alábbi leírás alapján:
+Készítsen egy hivatkozást, amely a weboldalon belül a „leiras” egyedi azonosítójú keretre hivatkozik!
+A hivatkozás szövege „Vissza a tetejére” legyen! 
+Módosítsa a style.css külső stíluslapon az alábbi egyedi azonosító elemkijelölőket:
+A „fejlec” egyedi azonosítójú elemkijelölő szélességét állítsa 100%-ra!
+A „bolygok” egyedi azonosítóhoz tartozó bekezdések elemkijelölőjében állítson be 10px belső margót!
+Módosítsa a style.css külső stíluslapon az alábbi osztály azonosító elemkijelölőket:
+A „tablazat” osztályazonosítójú elemkijelölőre állítson be 10px sugarú lekerekített szegélyt, valamint állítsa be a betűméretet úgy, hogy 10%-kal nagyobb legyen, mint az alapértelmezett betűméret!
+A „center-btn” osztályazonosítójú elemkijelölő háttérszíne legyen 50, 50, 50 RGB kódú, valamint a betűk stílusa dőltbetűs!
+Hozza létre, illetve egészítse ki a style.css külső stíluslapon az alábbi elemkijelölőket:
+A hivatkozásokhoz tartozó elemkijelölő jelenleg üres. Állítsa be, hogy aláhúzás nélküli, valamint kiskapitális betűstílusú legyen!
+Hozzon létre a „gyuruk” egyedi azonosítóhoz tartozó elemkijelölőt, és állítsa a listaelem stílus képét az img könyvtárban található saturn_icon.png-re!
+Hozzon létre a bekezdésekhez elemkijelölőt, majd állítson be rájuk sorkizárt betűigazítást!
+Ellenőrizze munkáját!
+A HTML oldalt validálja a https://validator.w3.org/ oldalon! Az eredményről készítsen pillanatképet, amelyet mentsen el naprendszerValidalas néven!
+A stíluslapot ellenőrizze https://jigsaw.w3.org/css-validator/ oldalon! Az eredményről készítsen pillanatképet és mentse el styleValidalas néven!
